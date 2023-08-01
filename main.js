@@ -20,7 +20,7 @@ console.log(sortByLength(["Longer", "Longest", "Short"]));
 //https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/javascript
 const arrayPlusArray = (arr1, arr2) => [...arr1, ...arr2].reduce((ttl, cv) => ttl + cv,0);
 
-console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]))
+console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
 
 // KATA 4 8kyu
 //https://www.codewars.com/kata/5583090cbe83f4fd8c000051
@@ -31,7 +31,7 @@ console.log(digitize(35231));
 // KATA 5 8kyu
 // https://www.codewars.com/kata/511f11d355fe575d2c000001/train/javascript
 const twoOldestAges = ages => {
-  let arr = ages.sort((a,b) => b - a)
-  return [arr[1], arr[0]]
+  let arr = ages.sort((a,b) => b - a);
+  return [arr[1], arr[0]];
 }
 console.log(twoOldestAges([1,5,87,45,8,8]))
